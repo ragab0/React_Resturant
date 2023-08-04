@@ -1,0 +1,50 @@
+.laurels {
+    padding-block: 125px;
+    color: #fff;
+}
+.laurels__body {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    gap: 100px
+}
+
+@media (min-width: 992px) {
+    .laurels__body {
+        grid-template-columns: 1fr auto;
+    }
+    
+}
+
+.laurels__content {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 64px;
+}
+
+.laurels__boxes {
+    display: grid;
+    gap: 64px 32px;
+}
+
+@media (min-width: 768px) {
+    .laurels__boxes {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.laurels__box {
+    display: flex;
+    gap: 30px;
+}
+
+.laurels__box-img {
+    align-self: center;
+    width: 80px;
+}
+
+
+.laurels__img {
+    width: 100%;
+    max-width: 500px;
+}

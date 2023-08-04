@@ -1,0 +1,30 @@
+.footer__overlay {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    gap: 100px 0;
+    color: #fff;
+}
+
+@media (min-width: 992px) {
+    .footer__overlay {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.footer__overlay-box h4 {
+    font-size: 2rem !important;
+    color: var(--color-crimson);
+}
+
+.footer__overlay-box-content {
+    display: grid;
+    justify-items: center;
+    gap: 1em;
+    margin: 2em 0;
+}
+
+.footer__overlay-social {
+    display: flex;
+    gap: 1em;
+}

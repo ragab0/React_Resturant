@@ -1,0 +1,41 @@
+.find {
+    padding-block: 125px;
+}
+
+.find__body {
+    display: grid;
+    align-items: center;
+    gap: 30px;
+}
+
+.find__content {
+    display: grid;
+    gap: 64px;
+    align-content: flex-start;
+    color: #fff;
+}
+
+.find__info > * {
+    margin-bottom: 1em;
+}
+.find__info .p {
+    margin-bottom: 2em;
+}
+
+.find__btn {
+    text-align: center;
+}
+
+.find__img {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .find__body {
+        grid-template-columns: 1fr 1fr;        
+    }
+    .find__btn{
+        justify-self: flex-start;
+
+    }
+}
